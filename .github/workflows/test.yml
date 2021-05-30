@@ -35,11 +35,9 @@ jobs:
     - name: Get dependencies
       run: |
         go mod download
-
     - name: Build
       run: |
         go build -v .
-
   # run acceptance tests in a matrix with Terraform core versions
   test:
     name: Matrix Test
@@ -68,7 +66,7 @@ jobs:
     - name: Get dependencies
       run: |
         go mod download
-        
+
     - name: TF acceptance tests
       timeout-minutes: 10
       env:

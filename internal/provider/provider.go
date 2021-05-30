@@ -9,18 +9,6 @@ import (
 	"github.com/fission/fission/pkg/controller/client"
 	"github.com/fission/fission/pkg/controller/client/rest"
 	"github.com/fission/fission/pkg/fission-cli/cmd"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/canaryconfig"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/environment"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/function"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/httptrigger"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/kubewatch"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/mqtrigger"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/package"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/spec"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/support"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/timetrigger"
-	// "github.com/fission/fission/pkg/fission-cli/cmd/version"
-	// "github.com/fission/fission/pkg/fission-cli/console"
 	"github.com/fission/fission/pkg/fission-cli/util"
 )
 
